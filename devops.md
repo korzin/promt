@@ -8,4 +8,4 @@ Docker:
 |--env, -e	 ||	Set environment variables | exec|
 |--interactive, -i | false |	Keep STDIN open even if not attached |exec |
 |--privileged |	false	Give extended privileges to the command |exec |
-|--user, -u	| 	Username or UID (format: <name|uid>[:<group|gid>]) | exec|
+|--user, -u	| 	Username or UID (format: <name&#124;uid>[:<group&#124;gid>]) | exec|
