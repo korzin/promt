@@ -1,6 +1,7 @@
-Docker: 
+## Docker: 
+1. Commands
 
-| Name, shorthand | Default | Description | Command|
+| Name, shorthand | Default | Description | Command |
 |---|---|---|---|
 | --tty, -t  | false  |  Allocate a pseudo-TTY |exec |
 |--detach, -d	| false	| Detached mode: run command in the background |exec |
@@ -8,4 +9,10 @@ Docker:
 |--env, -e	 ||	Set environment variables | exec|
 |--interactive, -i | false |	Keep STDIN open even if not attached |exec |
 |--privileged |	false	|Give extended privileges to the command |exec |
-|--user, -u	| 	|Username or UID (format: <name&#124;uid>[:<group&#124;gid>]) | exec|
+|--user, -u	| 	|Username or UID (format: <name&#124;uid>[:<group&#124;gid>]) | exec |
+2. Tips
+
+|Commands |Desctiption |
+|---|---|
+|docker exec -it container_name bash  | Shell into the already running docker container. |
+
