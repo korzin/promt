@@ -15,4 +15,5 @@
 |Commands |Desctiption |
 |---|---|
 |docker exec -it container_name bash  | Shell into the already running docker container. |
-
+|docker stop $(docker ps -a -q)| Stop all containers at once |
+|docker rm $(docker ps -a -q)| Remove all containers at once |
