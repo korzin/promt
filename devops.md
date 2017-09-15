@@ -17,4 +17,5 @@
 |docker exec -it container_name bash  | Shell into the already running docker container. |
 |docker stop $(docker ps -a -q)| Stop all containers at once |
 |docker rm $(docker ps -a -q)| Remove all containers at once |
-|docker build -t container_name .  |Build image from Dockerfile in corr folder|
+|docker build -t image_name .  |Build image from Dockerfile in corr folder|
+|docker run -d -p 8080:8080 image_name| Run container from image |
