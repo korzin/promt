@@ -1,6 +1,7 @@
-## Postgresql
+## Postgres and MySql 
 
-|Command| Description |
-|---|---|
-|\l, \list |Show databases|
-|\c db_name| Connect to certain db|
+|Description|Postgres|MySql|
+|---|---|---|
+|Show list of existing databases|\l, \list |SHOW DATABASES|
+|Use certain db|\c db_name|USE db_name|
+|Show chosen database|SELECT current_database()|SELECT database()|
