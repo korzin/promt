@@ -7,7 +7,7 @@
 |Show list of existing databases|\l, \list |SHOW DATABASES| ?|
 |Use certain db|\c db_name|USE db_name| ?|
 |Show chosen database|SELECT current_database()|SELECT database()|?|
-|Show all schemas in current db|select nspname from pg_catalog.pg_namespace ||select nspname from pg_catalog.pg_namespace|
+|Show all schemas in current db|select nspname from pg_catalog.pg_namespace |*The schema is the database*| select schema_name from information_schema.schemata|
 
 
 
