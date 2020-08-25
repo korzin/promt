@@ -1,0 +1,17 @@
+- name: Add OpenJDK PPA
+  apt_repository:
+    repo: ppa:openjdk-r/ppa
+- name: Install OpenJDK 8
+  apt:
+    force_apt_get: yes
+    name: openjdk-8-jre
+    update_cache: yes
+- name: Install OpenJDK 11
+  apt:
+    force_apt_get: yes
+    name: openjdk-11-jre
+    update_cache: yes
+- name: Set Java 8 as default
+  alternatives:
+    name: java
+    path: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
