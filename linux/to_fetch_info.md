@@ -5,3 +5,5 @@ ad-hoc commands
 - `free -m` - free memory in Mb
 - `curl http://169.254.169.254/latest/meta-data/local-ipv4` public IP (ec2)
 - `du -h --max-depth=1` - target folder size. 
+- `arch` - family the CPU 
+- `lscpu` -  more information concerning the CPU
